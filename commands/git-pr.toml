@@ -1,0 +1,7 @@
+description = "Gera uma descrição detalhada para um Pull Request"
+
+prompt = """
+Analise o histórico de commits desta branch e gere um corpo de PR detalhado.
+Inclua: Contexto, Mudanças, Impacto e Checklist de Verificação.
+Skill: $cek-git-workflow
+"""

@@ -1,0 +1,7 @@
+description = "Gera um commit profissional seguindo Conventional Commits"
+
+prompt = """
+Analise as mudanças atuais (git diff) e gere uma mensagem de commit profissional.
+Use o formato: <type>(<scope>): <subject>
+Skill: $cek-git-workflow
+"""
